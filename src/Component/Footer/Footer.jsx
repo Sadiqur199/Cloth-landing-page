@@ -1,37 +1,58 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 import { FaFacebook, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer mt-5 p-10 text-black">
-  <nav>
-    <header className="footer text-black text-2xl font-bold">NITEX</header> 
-  </nav> 
-  <nav>
-    <header className="footer text-black text-lg font-bold">Contact</header> 
-    <a className="link link-hover">support@nitex.info</a> 
-    <p>153 Curtain Rd, London EC2A 3QE,
-      <br></br>
-United Kingdom</p>
-  </nav> 
-  <nav>
-    <header className="footer text-black text-lg font-bold">Services</header> 
-    <a className="link link-hover">Branding</a> 
-    <a className="link link-hover">Design</a> 
-    <a className="link link-hover">Marketing</a> 
-    <a className="link link-hover">Advertisement</a>
-  </nav> 
-  <nav>
-    <header className="footer text-black text-lg font-bold ">Social</header> 
-    <div className="grid grid-flow-col gap-4">
-      <Link> <FaFacebook size={20}/> </Link>
-      <Link> <FaLinkedin size={20}/> </Link>
-      <Link> <FaTwitterSquare size={20}/> </Link>
-    </div>
-  </nav>
-</footer>
+    <div className="bg-black p-14">
+      <footer className="footer mt-5 p-10text-white">
+        <nav>
+          <header className="footer text-white text-2xl font-bold">
+            NITEX
+          </header>
+        </nav>
+
+        <nav>
+          <header className="footer text-white text-lg font-bold">
+            Contact
+          </header>
+          <a className="link link-hover text-white">support@nitex.info</a>
+          <p className="text-white">
+            153 Curtain Rd, London EC2A 3QE,
+            <br></br>
+            United Kingdom
+          </p>
+        </nav>
+
+        <nav>
+          <header className="footer text-white text-lg font-bold">
+            Services
+          </header>
+          <a className="link link-hover text-white">Branding</a>
+          <a className="link link-hover text-white">Design</a>
+          <a className="link link-hover text-white">Marketing</a>
+          <a className="link link-hover text-white">Advertisement</a>
+        </nav>
+        <nav>
+          <header className="footer text-white text-lg font-bold ">
+            Social
+          </header>
+          <div className="grid grid-flow-col gap-4">
+            <Link className="text-white">
+              {" "}
+              <FaFacebook size={20} />{" "}
+            </Link>
+            <Link className="text-white">
+              {" "}
+              <FaLinkedin size={20} />{" "}
+            </Link>
+            <Link className="text-white">
+              {" "}
+              <FaTwitterSquare size={20} />{" "}
+            </Link>
+          </div>
+        </nav>
+      </footer>
     </div>
   );
 };
