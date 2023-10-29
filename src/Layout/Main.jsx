@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from '../Component/Navbar/Navbar';
-import { Outlet } from 'react-router-dom';
 import Footer from '../Component/Footer/Footer';
 import Carousel from '../Component/Carousel/Carousel';
 import AboutUs from '../Component/AboutUs/AboutUs';
+import Services from '../Component/Services/Services';
 
 const Main = () => {
   return (
@@ -11,6 +11,7 @@ const Main = () => {
       <Navbar></Navbar>
       <Carousel></Carousel>
       <AboutUs></AboutUs>
+      <Services></Services>
       <Footer></Footer>
     </div>
   );

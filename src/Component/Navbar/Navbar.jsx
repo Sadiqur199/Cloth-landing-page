@@ -65,24 +65,24 @@ const Navbar = () => {
               <a href="#about" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
                 <li>AboutUs</li>
               </a>
-              <Link to="" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
+              <a href="#service" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
                 <li>Services</li>
-              </Link>
-              <Link to="" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
+              </a>
+              <a href="#team" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
                 <li>Team</li>
-              </Link>
-              <Link className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+              </a>
+              <a href="#testamonial" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
                 <li>Testamonial</li>
-              </Link>
-              <Link className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+              </a>
+              <a href="#pricing" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
                 <li>Pricing</li>
-              </Link>
-              <Link className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+              </a>
+              <a href="#product" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
                 <li>Product</li>
-              </Link>
-              <Link className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+              </a>
+              <a href="#contact" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
                 <li>Contact</li>
-              </Link>
+              </a>
           </ul>
         </div>
         <div className="navbar-end">
