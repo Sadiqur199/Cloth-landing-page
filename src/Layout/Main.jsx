@@ -5,6 +5,7 @@ import Carousel from '../Component/Carousel/Carousel';
 import AboutUs from '../Component/AboutUs/AboutUs';
 import Services from '../Component/Services/Services';
 import OurTeam from '../Component/Our Team/OurTeam';
+import Testamonial from '../Component/Testamonial/Testamonial';
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
       <AboutUs></AboutUs>
       <Services></Services>
       <OurTeam></OurTeam>
+      <Testamonial></Testamonial>
       <Footer></Footer>
     </div>
   );

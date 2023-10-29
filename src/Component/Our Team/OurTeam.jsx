@@ -9,7 +9,7 @@ const OurTeam = () => {
     Aos.init({duration: 2000})
   },[])
   return (
-    <div className='p-10'>
+    <div id='team' className='p-10'>
       <h1 className="text-start text-3xl font-bold  mb-10">Meet Our Team</h1>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
          <div data-aos='fade-right'>

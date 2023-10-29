@@ -74,8 +74,8 @@ const Navbar = () => {
               <a href="#testamonial" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
                 <li>Testamonial</li>
               </a>
-              <a href="#pricing" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
-                <li>Pricing</li>
+              <a href="#innovation" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+                <li>Innovation</li>
               </a>
               <a href="#product" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
                 <li>Product</li>
