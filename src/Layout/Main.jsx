@@ -4,6 +4,7 @@ import Footer from '../Component/Footer/Footer';
 import Carousel from '../Component/Carousel/Carousel';
 import AboutUs from '../Component/AboutUs/AboutUs';
 import Services from '../Component/Services/Services';
+import OurTeam from '../Component/Our Team/OurTeam';
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
       <Carousel></Carousel>
       <AboutUs></AboutUs>
       <Services></Services>
+      <OurTeam></OurTeam>
       <Footer></Footer>
     </div>
   );

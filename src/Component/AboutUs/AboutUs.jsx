@@ -23,7 +23,7 @@ const AboutUs = () => {
             <div>
               <img
                 className="h-20 w-20 rounded mt-10"
-                src="https://png.pngtree.com/png-vector/20220807/ourmid/pngtree-man-avatar-wearing-gray-suit-png-image_6102786.png"
+                src="https://media.licdn.com/dms/image/C4D03AQF9ikGu95h89w/profile-displayphoto-shrink_800_800/0/1655803294321?e=2147483647&v=beta&t=aG_aaQB6kXVJ5YDtz0lezvHbxrccl7BarMt3zy_n-94"
                 alt=""
               />
             </div>
