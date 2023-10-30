@@ -21,7 +21,7 @@ const Testamonial = () => {
                 />
               </div>
               <div className="text-center">
-                <h3 className="text-xl font-semibold">John Doe</h3>
+                <h3 className="text-xl font-semibold">Alex Caron</h3>
                 <p className="text-gray-600">CEO, XYZ Company</p>
               </div>
               <div className="mt-4 text-center">
@@ -57,8 +57,8 @@ const Testamonial = () => {
                 />
               </div>
               <div className="text-center">
-                <h3 className="text-xl font-semibold">John Doe</h3>
-                <p className="text-gray-600">CEO, XYZ Company</p>
+                <h3 className="text-xl font-semibold">Edward</h3>
+                <p className="text-gray-600">CEO, NP Company</p>
               </div>
               <div className="mt-4 text-center">
                 <p className="text-gray-800">
@@ -93,8 +93,8 @@ const Testamonial = () => {
                 />
               </div>
               <div className="text-center">
-                <h3 className="text-xl font-semibold">John Doe</h3>
-                <p className="text-gray-600">CEO, XYZ Company</p>
+                <h3 className="text-xl font-semibold">Lucy</h3>
+                <p className="text-gray-600">CEO, TT Company</p>
               </div>
               <div className="mt-4 text-center">
                 <p className="text-gray-800">
