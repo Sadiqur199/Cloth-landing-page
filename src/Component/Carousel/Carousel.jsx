@@ -13,8 +13,8 @@ const Carousel = () => {
             <h2 className='text-6xl font-semibold'>Our Men Product Collection</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis libero necessitatibus numquam ab iure rerum.</p>
             <div>
-           <button class="btn btn-active btn-warning mr-5 md:mt-0 mb-5">Visit More</button>
-           <button class="btn btn-outline btn-warning">Latest Product</button>
+           <button class="btn btn-active border-none bg-[#529B03] mr-5 md:mt-0 mb-5 text-white hover:bg-[#399fa6]">Visit More</button>
+           <button class="btn btn-outline hover:bg-[#399fa6] text-white">Latest Product</button>
            </div>
 
            </div>
@@ -33,8 +33,8 @@ const Carousel = () => {
             <h2 className='text-6xl font-semibold'>Our Women Product Collection</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam unde ex in nam vero voluptas!</p>
             <div>
-           <button class="btn btn-active btn-warning mr-5 md:mt-0 mb-5">Visit More</button>
-           <button class="btn btn-outline btn-warning">Latest Product</button>
+            <button class="btn btn-active border-none bg-[#529B03] mr-5 md:mt-0 mb-5 text-white hover:bg-[#399fa6]">Visit More</button>
+           <button class="btn btn-outline hover:bg-[#399fa6] text-white">Latest Product</button>
            </div>
 
            </div>
@@ -54,8 +54,8 @@ const Carousel = () => {
             <h2 className='text-6xl font-semibold'>Our Kids product Collection</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In harum quia quam excepturi, adipisci corrupti!</p>
             <div>
-           <button class="btn btn-active btn-warning mr-5 md:mt-0 mb-5">Visit More</button>
-           <button class="btn btn-outline btn-warning">Latest Product</button>
+            <button class="btn btn-active border-none bg-[#529B03] mr-5 md:mt-0 mb-5 text-white hover:bg-[#399fa6]">Visit More</button>
+           <button class="btn btn-outline hover:bg-[#399fa6] text-white">Latest Product</button>
            </div>
 
            </div>

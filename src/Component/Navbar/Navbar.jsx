@@ -27,28 +27,56 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 w-52"
             >
-<Link to="/" className=" mr-3 font-semibold active hover:text-black hover:border-b-2 hover:border-black">
+              <Link
+                to="/"
+                className=" mr-3 font-semibold active hover:text-black hover:border-b-2 hover:border-black"
+              >
                 <li>Home</li>
               </Link>
-              <a href="#about" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
+              <a
+                href="#about"
+                className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+              >
                 <li>AboutUs</li>
               </a>
-              <a href="#service" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
+              <a
+                href="#service"
+                className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+              >
                 <li>Services</li>
               </a>
-              <a href="#team" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
+              <a
+                href="#team"
+                className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+              >
                 <li>Team</li>
               </a>
-              <a href="#testamonial" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+              <a
+                href="#testamonial"
+                className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+                to=""
+              >
                 <li>Testamonial</li>
               </a>
-              <a href="#innovation" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+              <a
+                href="#innovation"
+                className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+                to=""
+              >
                 <li>Innovation</li>
               </a>
-              <a href="#product" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+              <a
+                href="#product"
+                className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+                to=""
+              >
                 <li>Product</li>
               </a>
-              <a href="#contact" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+              <a
+                href="#contact"
+                className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+                to=""
+              >
                 <li>Contact</li>
               </a>
             </ul>
@@ -59,38 +87,71 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-              <Link to="/" className=" mr-3 font-semibold active hover:text-black hover:border-b-2 hover:border-black">
-                <li>Home</li>
-              </Link>
-              <a href="#about" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
-                <li>AboutUs</li>
-              </a>
-              <a href="#service" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
-                <li>Services</li>
-              </a>
-              <a href="#team" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
-                <li>Team</li>
-              </a>
-              <a href="#testamonial" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
-                <li>Testamonial</li>
-              </a>
-              <a href="#innovation" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
-                <li>Innovation</li>
-              </a>
-              <a href="#product" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
-                <li>Product</li>
-              </a>
-              <a href="#contact" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
-                <li>Contact</li>
-              </a>
+            <Link
+              to="/"
+              className=" mr-3 font-semibold active hover:text-black hover:border-b-2 hover:border-black"
+            >
+              <li>Home</li>
+            </Link>
+            <a
+              href="#about"
+              className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+            >
+              <li>AboutUs</li>
+            </a>
+            <a
+              href="#service"
+              className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+            >
+              <li>Services</li>
+            </a>
+            <a
+              href="#team"
+              className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+            >
+              <li>Team</li>
+            </a>
+            <a
+              href="#testamonial"
+              className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+              to=""
+            >
+              <li>Testamonial</li>
+            </a>
+            <a
+              href="#innovation"
+              className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+              to=""
+            >
+              <li>Innovation</li>
+            </a>
+            <a
+              href="#product"
+              className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+              to=""
+            >
+              <li>Product</li>
+            </a>
+            <a
+              href="#contact"
+              className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black"
+              to=""
+            >
+              <li>Contact</li>
+            </a>
           </ul>
         </div>
         <div className="navbar-end">
-          <Link to="" className="btn bg-white border-none hover:bg-slate-200">Login</Link>
+          <Link
+            to=""
+            className="btn bg-white border-none hover:bg-[#399fa6] hover:text-white"
+          >
+            Login
+          </Link>
         </div>
       </div>
     </>
-  )
+  );
 };
 
 export default Navbar;

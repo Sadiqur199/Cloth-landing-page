@@ -7,6 +7,8 @@ import Services from '../Component/Services/Services';
 import OurTeam from '../Component/Our Team/OurTeam';
 import Testamonial from '../Component/Testamonial/Testamonial';
 import Innovation from '../Component/Innovation/Innovation';
+import Product from '../Component/Product/Product';
+import Contact from '../Component/Contact/Contact';
 
 const Main = () => {
   return (
@@ -18,6 +20,8 @@ const Main = () => {
       <OurTeam></OurTeam>
       <Testamonial></Testamonial>
       <Innovation></Innovation>
+      <Product></Product>
+      <Contact></Contact>
       <Footer></Footer>
     </div>
   );
