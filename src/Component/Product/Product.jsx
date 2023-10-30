@@ -29,7 +29,7 @@ const Product = () => {
                   by men. Typical men's clothes include trousers, shirts, jeans,
                   suits, sweaters, gloves, jackets, and hats. However, the
                   majority of those clothing items are also items of women's
-                  clothing
+                  clothing.Clothing is any item worn on the body.
                 </p>
                 <div className="card-actions">
                   <button className="btn bg-[#529B03] text-white hover:bg-[#399fa6] hover:text-white">
