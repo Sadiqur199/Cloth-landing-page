@@ -5,7 +5,8 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Carousel = () => {
   return (
-    <div className="carousel w-full h-[600px] mt-5">
+<div className=''>
+<div className="carousel w-full h-[600px] mt-5">
       <div id="slide1" className="carousel-item relative w-full">
         <img src='https://www.creditoncourier.co.uk/tindle-static/image/2022/10/05/14/nick-de-partee-5DLBoEX99Cs-unsplash.jpg?width=669&height=445&crop=669:445' className="w-full rounded-xl" />
         <div className="absolute rounded-xl flex items-center h-full left-0  top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">
@@ -67,6 +68,7 @@ const Carousel = () => {
         </div>
       </div>
     </div>
+</div>
   );
 };
 
