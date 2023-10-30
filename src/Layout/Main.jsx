@@ -6,6 +6,7 @@ import AboutUs from '../Component/AboutUs/AboutUs';
 import Services from '../Component/Services/Services';
 import OurTeam from '../Component/Our Team/OurTeam';
 import Testamonial from '../Component/Testamonial/Testamonial';
+import Innovation from '../Component/Innovation/Innovation';
 
 const Main = () => {
   return (
@@ -16,6 +17,7 @@ const Main = () => {
       <Services></Services>
       <OurTeam></OurTeam>
       <Testamonial></Testamonial>
+      <Innovation></Innovation>
       <Footer></Footer>
     </div>
   );

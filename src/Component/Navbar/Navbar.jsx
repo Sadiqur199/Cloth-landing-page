@@ -27,30 +27,30 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 w-52"
             >
-              <Link to="/" className="mr-3 font-semibold active hover:text-black hover:border-b-2 hover:border-black">
+<Link to="/" className=" mr-3 font-semibold active hover:text-black hover:border-b-2 hover:border-black">
                 <li>Home</li>
               </Link>
-              <Link to="" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
+              <a href="#about" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
                 <li>AboutUs</li>
-              </Link>
-              <Link to="" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
+              </a>
+              <a href="#service" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
                 <li>Services</li>
-              </Link>
-              <Link to="" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
+              </a>
+              <a href="#team" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black">
                 <li>Team</li>
-              </Link>
-              <Link className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+              </a>
+              <a href="#testamonial" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
                 <li>Testamonial</li>
-              </Link>
-              <Link className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
-                <li>Pricing</li>
-              </Link>
-              <Link className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+              </a>
+              <a href="#innovation" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+                <li>Innovation</li>
+              </a>
+              <a href="#product" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
                 <li>Product</li>
-              </Link>
-              <Link className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
+              </a>
+              <a href="#contact" className="mr-3 font-semibold hover:text-black hover:border-b-2 hover:border-black" to="">
                 <li>Contact</li>
-              </Link>
+              </a>
             </ul>
           </div>
           <Link to="/" className=" normal-case text-2xl font-bold">
